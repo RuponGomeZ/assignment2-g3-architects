@@ -339,6 +339,8 @@ Some Facts Container
         left: 40px;
         top: 0.2px;
         margin-bottom: 0;
+        width: 240px;
+        height: 100;
     }
     .features-container-description>p {
         inline-size: 350px;
