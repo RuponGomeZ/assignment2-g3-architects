@@ -340,12 +340,16 @@ Some Facts Container
     }
 
     p {
-        inline-size: 350px;
+        inline-size: 340px;
     }
 
     .feature-list-items {
         padding-left: 10px;
         inline-size: 300px;
+    }
+    .feature-list-items>li {
+        width: 310px;
+
     }
     /* .achivement-boxes */
     .some-facts-container{
@@ -353,6 +357,7 @@ Some Facts Container
     }
     .achivement-boxes{
         flex-direction: column;
+        width: 202px;
         padding-left: 55px;
         margin-left: 0;
     }
