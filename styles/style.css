@@ -290,7 +290,7 @@ Some Facts Container
     padding-top: 50px;
 }
 
-.kisu {
+.footer-text-container {
     text-align: center;
     margin-top: 20px;
 }
@@ -348,13 +348,27 @@ Some Facts Container
         inline-size: 300px;
     }
     /* .achivement-boxes */
-
+    .some-facts-container{
+        padding-left: 30px;
+    }
     .achivement-boxes{
         flex-direction: column;
-        padding-left: 0;
+        padding-left: 55px;
         margin-left: 0;
     }
     .li-border>p{
         width: 187px;
+    }
+
+    /* Footer  */
+
+    .sponsors-icons{
+        flex-direction: column;
+        padding-left: 120px;
+    }
+    .footer-text{
+        text-align: left;
+        inline-size: 350px;
+        padding-top: 30px;
     }
 }
