@@ -11,8 +11,6 @@
 
 header {
     background-color: rgba(255, 144, 14, 0.1);
-    /* width: 1920px;
-    height: 1322px; */
 }
 
 .web-title {
@@ -29,6 +27,9 @@ header {
     justify-content: space-between;
 }
 
+.bot{
+    text-decoration: none;
+}
 .nav-menu-items {
     display: flex;
     list-style: none;
@@ -252,22 +253,60 @@ font-size: 16px;
     justify-content: center;
     margin-bottom: 100px;
 }
-.footer{
-    background: #FFF4E7;
+.footer-text{
+    /* border: 1px solid ;
+    border: none; */
+     background-color: #FFF4E7;
     margin-left: auto;
     margin-right: auto;
 border-radius: 8px;
     width: 1440px;
-height: 100px;
-text-align: center;
-position: relative;
+height: 50px;
+padding-top: 50px;
+}
+
+.kisu{
+    text-align: center;
+margin-top: 20px;
 }
 
 /* smaller device */
 
 @media screen and (max-width: 576px) {
-    nav-bar{
+    
+    .nav-bar{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .nav-menu-items{
+        padding-bottom: 40px;
+    }
+    .banner>img{
+        margin-left: 30px;
+    }
+    .features-list-images{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .our-features-list{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .featurs-container-align{
+        margin-left: auto;
+    }
+    .features-container-title{
+        inline-size: 350px;
+    }
+    .features-container-description>p{
+        inline-size: 350px;
+    }
+    .li-title>p{
+        inline-size: 180px;
+    }
+    .feature-list-items{
+        padding-left: 10px;
+        inline-size: 300px;
     }
 }
